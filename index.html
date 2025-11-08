@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para o Biel</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <section id="choiceSection" class="section">
+        <h1>Biel, posso te mostrar algo?</h1>
+        <button id="btnYes" class="btn yes">Sim</button>
+        <button id="btnNo" class="btn no">Não</button>
+
+        <div class="selectArea">
+            <p>Ou escolha aqui:</p>
+            <select id="presentSelect">
+        <option value="">Escolha uma opção</option>
+        <option value="verPresente">Ver Presente</option>
+        <option value="verMensagem">Ver Mensagem</option>
+      </select>
+            <button id="goSelect" class="btn mini">Ir</button>
+        </div>
+    </section>
+
+    <section id="surpriseSection" class="section hidden">
+        <h2>Esse é pra você, Biel.</h2>
+        <p>
+            Você é como um amanhecer calmo depois de uma noite longa. Fica, porque o mundo fica mais leve quando você existe.
+        </p>
+
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3Hvu1pq89D4R0lyPBoujSv?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"></iframe>
+
+        <button id="backBtn" class="btn mini">Voltar</button>
+    </section>
+
+    <section id="messageSection" class="section hidden">
+        <h2>Uma mensagem pra você</h2>
+        <p>
+            Eu não complico: eu gosto de você. Gosto do jeito que você fala, do jeito que você ri, do jeito que você existe. Você é importante pra mim. É simples assim.
+        </p>
+        <button id="backBtn2" class="btn mini">Voltar</button>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
